@@ -1,0 +1,34 @@
+configure server {
+	- Install a new laravel instance locally (any platform) running on nginx and MySQL. 
+		This is well documented and should be fairly simple.
+}
+
+form display {
+	-Use laravel blade templates to create. 
+	-Following standard laravel design patterns construct a mock contact us page for teamDigital. 
+	Total license to use any creative style but it should look clean.
+
+	-The form will have the following inputs:
+	First Name: required
+	Last Name: required
+	Email: required
+	Company Name: optional
+	Industry: optional from a made up list of industries
+	Message: required
+
+	- Have the form use vue.js to do one thing on the page. Eg. A button that changes color schemes.
+}
+
+
+form submission {
+	-Have the form submit and dump to a success page. 
+
+	- Have the form dump to an error state if it fails to meet requirements.
+
+	Bonus points if data is actually captured to the MySQL database.
+}
+
+
+ 
+functionality over design
+	#We'd rather see the basic stuff work than an amazing design but points for clean looks.
