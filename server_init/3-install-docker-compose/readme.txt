@@ -2,6 +2,6 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
-# create hello-world directory with docker-compose.yml file, see supporting folder 3-install[...]
+# create hello-world directory with docker-compose.yml file
 
 sudo docker-compose up 
